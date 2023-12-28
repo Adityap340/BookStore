@@ -23,7 +23,7 @@ const SideBar = () => {
           </Sidebar.Logo>
           <Sidebar.Item href="/admin/dashboard/upload" icon={HiOutlineCloud}>
             <p>
-              `Upload Book
+              Upload Book
             </p>
           </Sidebar.Item>
           <Sidebar.Item href="/admin/dashboard/manage" icon={HiInbox}>
