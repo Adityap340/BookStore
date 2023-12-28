@@ -5,7 +5,7 @@ const Shop = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/all-books").then(res => res.json()).then(data => setBooks(data));
+    fetch("https://book-inventory-2kcm.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data));
   }, [])
   const handleBuyNow = (bookPdfUrl) => {
     // Open bookPdfUrl in a new tab

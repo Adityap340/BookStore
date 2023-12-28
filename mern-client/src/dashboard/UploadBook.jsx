@@ -75,7 +75,7 @@ const UploadBook = () => {
       bookPdfUrl
     }
 
-    fetch("http://localhost:3000/upload-book",{
+    fetch("https://book-inventory-2kcm.onrender.com/upload-book",{
       method: "POST",
       headers: {
         "Content-Type": "application/json"

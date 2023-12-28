@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         {
           path:"/book/:id",
           element: <SingleBook/>,
-          loader:({params}) => fetch(`http://localhost:3000/book/${params.id}`)
+          loader:({params}) => fetch(`https://book-inventory-2kcm.onrender.com/book/${params.id}`)
         },
         {
           path:"/admin/dashboard",
@@ -63,7 +63,7 @@ const router = createBrowserRouter([
             {
               path:"/admin/dashboard/edit-books/:id",
               element: <EditBooks/>,
-              loader:({params}) => fetch(`http://localhost:3000/book/${params.id}`)
+              loader:({params}) => fetch(`https://book-inventory-2kcm.onrender.com/book/${params.id}`)
             }
           ]
         },

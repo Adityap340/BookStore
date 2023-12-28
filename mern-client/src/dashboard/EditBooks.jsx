@@ -78,7 +78,7 @@ const EditBooks = () => {
       bookPdfUrl
     }
 
-    fetch(`http://localhost:3000/book/${id}`, {
+    fetch(`https://book-inventory-2kcm.onrender.com/book/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
